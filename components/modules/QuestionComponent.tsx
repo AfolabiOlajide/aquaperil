@@ -26,7 +26,7 @@ const QuestionComponent = ({
                 Reset game
             </Button>
             {/* <Question problemType={currentProblemType} /> */}
-            <Question addBridge={addBridge} reset={resetGame} />
+            {/* <Question addBridge={addBridge} reset={resetGame} /> */}
         </section>
     );
 };
