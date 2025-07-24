@@ -10,7 +10,7 @@ import Question from "@/components/modules/Question";
 
 const Game = () => {
     const { minutes, seconds, running, ended, start, pause, restart, reset } =
-        useCountdownTimer(5);
+        useCountdownTimer(1);
     const [showBridge, setShowBridge] = useState(0);
 
     const addBridge = () => {
@@ -39,7 +39,7 @@ const Game = () => {
                         <ArrowLeftFromLine /> Home
                     </Button>
                 </Link>
-                <h1 className="text-2xl font-bold text-center font-bitcount-grid-double">
+                <h1 className="text-5xl font-bold text-center font-bitcount-grid-double">
                     Game Console
                 </h1>
                 <div className="timer">

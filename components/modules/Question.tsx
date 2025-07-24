@@ -357,7 +357,7 @@ const Question = ({
         if (!problem) return null;
 
         const { shape } = problem;
-        const scale = 14;
+        const scale = 10;
 
         return (
             <div className="flex justify-center my-6">
@@ -927,13 +927,13 @@ const Question = ({
                                         questions[currentProblemType]
                                     )}
                                     <div className="text-center">
-                                        <p className="text-sm text-gray-600 mb-2">
+                                        {/* <p className="text-sm text-gray-600 mb-2">
                                             Formula:{" "}
                                             {
                                                 questions[currentProblemType]
                                                     .formula
                                             }
-                                        </p>
+                                        </p> */}
 
                                         {questions[currentProblemType]
                                             .attempts >= 3 ? (
@@ -1036,13 +1036,13 @@ const Question = ({
                         </DialogDescription>
                     </DialogHeader>
                     <div className="flex flex-col items-center justify-center">
-                        <span className="font-bitcount-grid-double text-9xl">
-                            {score}
+                        <span className="font-bitcount-grid-double text-7xl my-6">
+                            {((score / 7) * 100).toFixed(2)} %
                         </span>
-                        <span className="font-bitcount-grid-double text-9xl w-full h-2 bg-blue-500"></span>
+                        {/* <span className="font-bitcount-grid-double text-9xl w-full h-2 bg-blue-500"></span>
                         <span className="font-bitcount-grid-double text-9xl">
                             7
-                        </span>
+                        </span> */}
                     </div>
                     <div className="story">
                         <p className="text-center">
