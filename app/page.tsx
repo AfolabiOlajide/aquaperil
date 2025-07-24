@@ -133,6 +133,7 @@ export default function Home() {
                                             <a
                                                 href="https://pngtree.com/freepng/architecture-stone-texture-wall_3591633.html"
                                                 className="underline"
+                                                target="_blank"
                                             >
                                                 Stone wall Image from
                                                 pngtree.com
@@ -144,6 +145,7 @@ export default function Home() {
                                                 href="https://www.flaticon.com/free-icons/confetti"
                                                 title="confetti icons"
                                                 className="underline"
+                                                target="_blank"
                                             >
                                                 Confetti icons created by
                                                 Freepik - Flaticon
