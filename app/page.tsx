@@ -35,43 +35,46 @@ export default function Home() {
                 </Tabs>
             </div>
             {/* attributes */}
-            <Card className="max-w-6xl mx-auto my-[3rem] ">
-                <CardHeader>
-                    <CardTitle className="text-2xl text-teal-600">
-                        Attributes
-                    </CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <div className="bg-teal-50 p-6 rounded-lg">
-                        <div className="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <ul className="text-sm text-gray-600 space-y-1">
-                                    <li>
-                                        •{" "}
-                                        <a
-                                            href="https://pngtree.com/freepng/architecture-stone-texture-wall_3591633.html"
-                                            className="underline"
-                                        >
-                                            Stone wall Image from pngtree.com
-                                        </a>
-                                    </li>
-                                    <li>
-                                        •{" "}
-                                        <a
-                                            href="https://www.flaticon.com/free-icons/confetti"
-                                            title="confetti icons"
-                                            className="underline"
-                                        >
-                                            Confetti icons created by Freepik -
-                                            Flaticon
-                                        </a>
-                                    </li>
-                                </ul>
+            <div className="p-6">
+                <Card className="max-w-6xl mx-auto my-[3rem] ">
+                    <CardHeader>
+                        <CardTitle className="text-2xl text-teal-600">
+                            Attributes
+                        </CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                        <div className="bg-teal-50 p-6 rounded-lg">
+                            <div className="grid md:grid-cols-2 gap-6">
+                                <div>
+                                    <ul className="text-sm text-gray-600 space-y-1">
+                                        <li>
+                                            •{" "}
+                                            <a
+                                                href="https://pngtree.com/freepng/architecture-stone-texture-wall_3591633.html"
+                                                className="underline"
+                                            >
+                                                Stone wall Image from
+                                                pngtree.com
+                                            </a>
+                                        </li>
+                                        <li>
+                                            •{" "}
+                                            <a
+                                                href="https://www.flaticon.com/free-icons/confetti"
+                                                title="confetti icons"
+                                                className="underline"
+                                            >
+                                                Confetti icons created by
+                                                Freepik - Flaticon
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </CardContent>
-            </Card>
+                    </CardContent>
+                </Card>
+            </div>
         </main>
     );
 }

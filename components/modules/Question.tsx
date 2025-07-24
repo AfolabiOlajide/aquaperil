@@ -1046,10 +1046,10 @@ const Question = ({
                     </div>
                     <div className="story">
                         <p className="text-center">
-                            To fix the <b>Bridge of Whispers</b> and have access
-                            to repair the <b>Mighty Aether Dam</b>, you must
-                            solve all the questions before the time runs out
-                            else the peole of <b>Country Name</b> will perish.
+                            To restore the <b>Bridge of Whispers</b> and unlock
+                            access to the <b>Mighty Aether Dam</b>, you must
+                            solve all the challenges before time runs out or the
+                            people of <b>Aether</b> will be lost forever.
                         </p>
                     </div>
                     <DialogFooter className="w-max mx-auto">
@@ -1098,9 +1098,10 @@ const Question = ({
                     </div>
                     <div className="story">
                         <p className="text-center">
-                            You have repaired the <b>Bridge of Whispers</b> and
-                            have access to repair the <b>Mighty Aether Dam</b>.
-                            You have saved the people of <b>Country Name</b>.
+                            You have restored the <b>Bridge of Whispers</b> and
+                            repaired the <b>Mighty Aether Dam</b>, safeguarding
+                            the people of <b>Aether</b>. Their future shines
+                            brighter because of your geometry prowess.
                         </p>
                     </div>
                     <DialogFooter className="w-max mx-auto">

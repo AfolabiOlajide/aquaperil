@@ -10,7 +10,7 @@ import Question from "@/components/modules/Question";
 
 const Game = () => {
     const { minutes, seconds, running, ended, start, pause, restart, reset } =
-        useCountdownTimer(3);
+        useCountdownTimer(5);
     const [showBridge, setShowBridge] = useState(0);
 
     const addBridge = () => {
