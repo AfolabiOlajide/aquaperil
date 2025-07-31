@@ -2,15 +2,14 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
-import QuestionComponent from "@/components/modules/QuestionComponent";
+import { motion } from "motion/react";
 import { ArrowLeftFromLine } from "lucide-react";
 import { useCountdownTimer } from "@/hooks/useCountdownTimer";
 import Question from "@/components/modules/Question";
 
 const Game = () => {
     const { minutes, seconds, running, ended, start, pause, restart, reset } =
-        useCountdownTimer(1);
+        useCountdownTimer(5); // set 5 minutes timer
     const [showBridge, setShowBridge] = useState(0);
 
     const addBridge = () => {
